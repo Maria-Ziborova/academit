@@ -1,5 +1,5 @@
 String1
-String2
+String2 Mashas revision
 String3
 String4
 String5 (new string)
