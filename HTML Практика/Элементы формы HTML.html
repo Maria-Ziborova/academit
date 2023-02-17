@@ -3,17 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Практика HTML</title>
+    <link rel="stylesheet" href="Style.css">
 </head>
 <body>
 <h1>Новосибирск</h1>
 <img src="Flag_of_Novosibirsk.svg" alt="Флаг" width="500" height="333">
 <img src="Novosibirsk_(1993)" alt="Герб" width="500" height="333">
 
-<p>Дзержинский</p>
-
+<h3>Реки Новосибирска</h3>
+<h2>Малые реки</h2>
+<p>В черте города протекает восемь малых рек, семь из которых — на правом берегу Оби:</p>
+<ul>
+    <li>1-я Ельцовка</li>
+    <li>2-я Ельцовка</li>
+    <li>Нижняя Ельцовка</li>
+    <li>Каменка</li>
+    <li>Плющиха</li>
+    <li>Камышенка</li>
+    <li>Иня</li>
+</ul>
+<p>Общая протяженность малых рек в границах города около 70 километров, а ширина их долин варьируется от 50 до 300 метров.</p>
 <a href="https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA">Look at wikipedia</a>
 
-<h2>В каком районе Новосибирска ты живешь?</h2>
+<h4>В каком районе Новосибирска ты живешь?</h4>
 
 <form>
     <input type="checkbox" id="area1" name="area1" value="Dz">
@@ -29,7 +41,18 @@
 
 </form>
 
-<h2>На каком берегу Оби ты живешь?</h2>
+<select name="select_area">
+    <option value="1">Дзержинский</option>
+    <option value="2">Железнодорожный</option>
+    <option value="3">Заельцовский</option>
+    <option value="4">Калининский</option>
+    <option value="5">Кировский</option>
+    <option value="6">Ленинский</option>
+    <option value="7">Первомайский</option>
+    <option value="8">Центральный</option>
+</select>
+
+<h4>На каком берегу Оби ты живешь?</h4>
 <form>
     <input type="radio" id="right" name="bank" value="right">
     <label for="right">Правый</label><br>
