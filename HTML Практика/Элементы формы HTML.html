@@ -5,39 +5,36 @@
     <title>Практика HTML</title>
 </head>
 <body>
-<hr />
-<p>Виды браузеров</p>
-<table border="1">
-    <tr>
-        <th>Движок</th>
-        <th>Разработчики</th>
-        <th>Браузер</th>
-    </tr>
-    <tr>
-        <td rowspan="4">Blink</td>
-        <td>Google</td>
-        <td rowspan="2">Google Chrome</td>
-    </tr>
-    <tr>
-        <td>Opera</td>
-    </tr>
-    <tr>
-        <td>Samsung</td>
-        <td rowspan="2">Opera 15+</td>
-    </tr>
-    <tr>
-        <td>Intel</td>
-    </tr>
-    <tr>
-        <td>Gecko</td>
-        <td>Netscape/Mozilla Foundation</td>
-        <td>Mozilla Firefox</td>
-    </tr>
-    <tr>
-        <td>EdgeHTML</td>
-        <td>Microsoft</td>
-        <td>Microsoft Edge</td>
-    </tr>
-</table>
+<h1>Новосибирск</h1>
+<img src="Flag_of_Novosibirsk.svg" alt="Флаг" width="500" height="333">
+<img src="Novosibirsk_(1993)" alt="Герб" width="500" height="333">
+
+<p>Дзержинский</p>
+
+<a href="https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA">Look at wikipedia</a>
+
+<h2>В каком районе Новосибирска ты живешь?</h2>
+
+<form>
+    <input type="checkbox" id="area1" name="area1" value="Dz">
+    <label for="area1"> Дзержинский</label><br>
+    <input type="checkbox" id="area2" name="area2" value="Zh">
+    <label for="area2"> Железнодорожный</label><br>
+    <input type="checkbox" id="area3" name="area3" value="Za">
+    <label for="area3"> Заельцовский</label><br>
+    <input type="checkbox" id="area4" name="area4" value="Ka">
+    <label for="area4"> Калининский</label><br>
+    <input type="checkbox" id="area5" name="area5" value="Pe">
+    <label for="area5"> Первомайский</label><br>
+
+</form>
+
+<h2>На каком берегу Оби ты живешь?</h2>
+<form>
+    <input type="radio" id="right" name="bank" value="right">
+    <label for="right">Правый</label><br>
+    <input type="radio" id="left" name="bank" value="left">
+    <label for="left">Левый</label><br>
+</form>
 </body>
 </html>
